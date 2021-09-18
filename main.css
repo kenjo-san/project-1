@@ -22,7 +22,7 @@ p {
 .alignRight{
 		float:right;
 		}
-		
+
 #mainArea{
 			background-image:url(../img/mainBg.jpg);
 			background-size:cover;
@@ -41,19 +41,19 @@ p {
 	text-decoration:none;
 	margin-left:30px;
 	border-bottom:1px solid transparent;
-	padding-bottom:5px;	
-	
+	padding-bottom:5px;
+
 		}
 .nav li a:hover{
 			border-bottom:1px solid white;
-			
+
 			}
 .mainContent{
 	display:inline-block;
 	text-align:center;
 	margin-top:150px;
-	
-	
+
+
 	}
 	h1 {
 		font-size:72px;
@@ -62,7 +62,7 @@ p {
 		margin-bottom:40px;
 		}
 .mainSlogan{
-	
+
 	width:75%
 	margin:0 auto;}
 	.arrow{
@@ -75,6 +75,154 @@ p {
 		.fa-angle-down{
 			color:#f1c40f;
 			line-height:90px;
-			}		
-			
-					
+			}
+      #features{
+        background-color: #f1c40f;
+        padding-top: 60px;
+        padding-bottom: 120px;
+        height: 710px;
+
+      }
+      #features .container{
+        text-align: center;
+      }
+      h2{
+        font-size:36px;
+        color:white;
+      }
+h2::after{
+  content:" ";
+  display:block;
+  width: 150px;
+  height: 1px;
+  background-color: white;
+  margin: 10px auto;
+}
+.sectionP{
+  font-size: 18px;
+  font-style: italic;
+  width:80%
+  margin: 15px auto 60px auto;
+}
+.features-content{
+  display: inline-block;
+}
+.col-4{
+   width: 33.33%;
+   float:left;
+   padding: 0 20px;
+}
+h3{
+  color:white;
+  font-size: 24px;
+  margin-top: 15px;
+}
+.col-4 p{
+  font-size: 14px;
+}
+#portfolio{
+  background-color: #95a5a6;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+#portfolio .container{
+  text-align: center;
+
+}
+.portfolio-content{
+  display: inline-block;
+}
+.item{
+  position: relative;
+  overflow: hidden;
+}
+.item:hover .overlay{
+  top: 0;
+
+}
+.overlay{
+  position: absolute;
+  top:0; right: 0; left: 0; bottom:0;
+  background-color: rgba(231, 76, 60, 0.8);
+  padding-top: 40px;
+  transition: top 0.4s;
+}
+.overlay{
+  top: 100%;
+}
+#portfolio .row .col-4{
+  margin-bottom: 50px;
+}
+.paraName{
+  color:white;
+	font-family: 'Oswald', sans-serif;
+	font-size:18px !important;
+}
+
+#team{
+  background-color: #2ecc71;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+#team .container{
+  text-align:center;
+}
+.team-content .row{
+  overflow: hidden;
+}
+.socialicons{
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.socialicons li{
+  display: inline;
+}
+.socialicons li .fab{
+  font-size: 30px;
+  color: #fff;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#contact{
+  background-color: #34495e;
+  padding-top: 60px;
+  padding-bottom: 80px;
+
+}
+#contact .container{
+text-align: center;
+}
+.contact-form{
+  width: 50%;
+  margin: 0 auto;
+}
+input, textarea{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+  height: 40px;
+}
+textarea{
+  height: 160px;
+}
+input[type=submit]{
+  background-color:#e74c3c;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  cursor: pointer;
+  }
+  /*MEDIA QUERIES*/
+  @media only screen and (max-width:1170px){
+    #mainArea .container{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+  }
