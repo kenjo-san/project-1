@@ -226,3 +226,16 @@ input[type=submit]{
     }
 
   }
+  .responsive-nav{
+    background: url(../img/menuIcon.jpg) no repeat;
+    display: block;
+    width: 42px;
+    height: 30px;
+    
+  }
+  .container nav ul{
+    display: none;
+  }
+  .container nav ul.release{
+    display: block;
+  }
