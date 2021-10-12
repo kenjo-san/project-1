@@ -1,241 +1,254 @@
-.container{
-  max-width:1170px;
-  margin: 0 auto;
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://kit.fontawesome.com/7ffe3457c5.js" crossorigin="anonymous"></script>
 
-}
-*{
-	box-sizing:border-box;
-	}
-h1,h2,h3,h4{
-	font-family: 'Oswald', sans-serif;
-	margin:0;
-	font-weight:400;
-	text-transform:uppercase;
-}
-p {
-	font-family: 'Comfortaa', cursive;
-	color:white;
-}
-.alignLeft{
-	float:left;
-	}
-.alignRight{
-		float:right;
-		}
-
-#mainArea{
-			background-image:url(../img/mainBg.jpg);
-			background-size:cover;
-			background-position: center;
-			background-attachment:fixed;
-			padding-top:35px;
-			}
-.nav li{
-	display:inline-block;
-	}
-	.nav li a{
-	color:white;
-	font-family: 'Oswald', sans-serif;
-	font-size:16px;
-	font-weight:700;
-	text-decoration:none;
-	margin-left:30px;
-	border-bottom:1px solid transparent;
-	padding-bottom:5px;
-
-		}
-.nav li a:hover{
-			border-bottom:1px solid white;
-
-			}
-.mainContent{
-	display:inline-block;
-	text-align:center;
-	margin-top:150px;
+<title>ELIS FLAT HTML CSS TEMPLATE</title>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
 
 
-	}
-	h1 {
-		font-size:72px;
-		color:#f1c40f;
-		letter-spacing:5px;
-		margin-bottom:40px;
-		}
-.mainSlogan{
+     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
 
-	width:75%
-	margin:0 auto;}
-	.arrow{
-		width:100px;
-		height:100px;
-		border:5px solid #f1c40f;
-		border-radius:100px;
-		margin:160px auto 120px auto;
-		}
-		.fa-angle-down{
-			color:#f1c40f;
-			line-height:90px;
-			}
-      #features{
-        background-color: #f1c40f;
-        padding-top: 60px;
-        padding-bottom: 120px;
-        height: 710px;
 
-      }
-      #features .container{
-        text-align: center;
-      }
-      h2{
-        font-size:36px;
-        color:white;
-      }
-h2::after{
-  content:" ";
-  display:block;
-  width: 150px;
-  height: 1px;
-  background-color: white;
-  margin: 10px auto;
-}
-.sectionP{
-  font-size: 18px;
-  font-style: italic;
-  width:80%
-  margin: 15px auto 60px auto;
-}
-.features-content{
-  display: inline-block;
-}
-.col-4{
-   width: 33.33%;
-   float:left;
-   padding: 0 20px;
-}
-h3{
-  color:white;
-  font-size: 24px;
-  margin-top: 15px;
-}
-.col-4 p{
-  font-size: 14px;
-}
-#portfolio{
-  background-color: #95a5a6;
-  padding-top: 60px;
-  padding-bottom: 80px;
-}
-#portfolio .container{
-  text-align: center;
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
 
-}
-.portfolio-content{
-  display: inline-block;
-}
-.item{
-  position: relative;
-  overflow: hidden;
-}
-.item:hover .overlay{
-  top: 0;
+    <link rel="stylesheet" type="text/css" href="css/normalize.css", initial-scale=1>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
 
-}
-.overlay{
-  position: absolute;
-  top:0; right: 0; left: 0; bottom:0;
-  background-color: rgba(231, 76, 60, 0.8);
-  padding-top: 40px;
-  transition: top 0.4s;
-}
-.overlay{
-  top: 100%;
-}
-#portfolio .row .col-4{
-  margin-bottom: 50px;
-}
-.paraName{
-  color:white;
-	font-family: 'Oswald', sans-serif;
-	font-size:18px !important;
-}
+    <body>
+    <section id="mainArea">
+    <div class="container">
+    <div class="logo alignLeft">
+    <a href="#"><img src="img/logo.png"></a>
+    </div>
+    <nav class="navbar">
+      <a class="responsive-nav"></a>
 
-#team{
-  background-color: #2ecc71;
-  padding-top: 60px;
-  padding-bottom: 80px;
-}
-#team .container{
-  text-align:center;
-}
-.team-content .row{
-  overflow: hidden;
-}
-.socialicons{
-  list-style-type: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-.socialicons li{
-  display: inline;
-}
-.socialicons li .fab{
-  font-size: 30px;
-  color: #fff;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-#contact{
-  background-color: #34495e;
-  padding-top: 60px;
-  padding-bottom: 80px;
+    <ul class="nav alignRight">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">FEATURES</a></li>
+        <li><a href="#">PORTFOLIO</a></li>
+        <li><a href="#">TEAM</a></li>
+        <li><a href="#">CONTACT</a></li>
 
-}
-#contact .container{
-text-align: center;
-}
-.contact-form{
-  width: 50%;
-  margin: 0 auto;
-}
-input, textarea{
-  width: 100%;
-  padding: 5px;
-  margin-bottom: 20px;
-  outline: none;
-  border: none;
-  height: 40px;
-}
-textarea{
-  height: 160px;
-}
-input[type=submit]{
-  background-color:#e74c3c;
-  margin-top: 20px;
-  color: #fff;
-  font-size: 20px;
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 2px;
-  cursor: pointer;
-  }
-  /*MEDIA QUERIES*/
-  @media only screen and (max-width:1170px){
-    #mainArea .container{
-      padding-left: 20px;
-      padding-right: 20px;
-    }
 
-  }
-  .responsive-nav{
-    background: url(../img/menuIcon.jpg) no repeat;
-    display: block;
-    width: 42px;
-    height: 30px;
-    
-  }
-  .container nav ul{
-    display: none;
-  }
-  .container nav ul.release{
-    display: block;
-  }
+    </ul>
+    </nav>
+
+    <div class="mainContent">
+    <h1>LOREM IPSUM DOLOR</h1>
+    <p class="mainSlogan">Ectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam</p>
+    <div class="arrow">
+    <i class="fas fa-angle-down fa-4x"></i>
+    </div>
+
+    </div>
+
+    </div>
+    </section>
+
+    <section id="features">
+    <div class="container">
+    <div class="features-top">
+    <h2>FEATURES</h2>
+    <p class="sectionP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+     </div>
+     <div class="features-content">
+     <div class="row">
+
+     <div class="col-4">
+     <img src="img/webDesign.png">
+     <h3>WEB DESIGN</h3>
+     <p>Ectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+
+     </div>
+
+
+         <div class="col-4">
+     <img src="img/mobileDesign.png">
+     <h3>MOBILE DESIGN</h3>
+     <p>Ectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+
+     </div>
+
+         <div class="col-4">
+     <img src="img/branding.png">
+     <h3>BRANDING</h3>
+     <p>Ectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+
+     </div>
+</div>
+
+     </div>
+    </div>
+   </section>
+   <section id="portfolio">
+       <div class="container">
+         <div class="portfolio-top">
+           <h2>PORTFOLIO</h2>
+           <p class="sectionP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+
+       </div>
+       <div class="portfolio-content">
+         <div class="row">
+           <div class="col-4">
+             <div class="item">
+               <img src="img/portfolioItem.jpg" alt="">
+               <div class="overlay">
+                 <img src="img/itemplus.png" alt="">
+                 <p class="paraName">PROJECT NAME</p>
+                 <p class="paraCat">Web Design</p>
+
+               </div>
+             </div>
+
+           </div>
+
+           <div class="col-4">
+             <div class="item">
+               <img src="img/portfolioItem.jpg" alt="">
+               <div class="overlay">
+                 <img src="img/itemplus.png" alt="">
+                 <p class="paraName">PROJECT NAME</p>
+                 <p class="paraCat">Web Design</p>
+
+               </div>
+             </div>
+
+           </div>
+
+           <div class="col-4">
+             <div class="item">
+               <img src="img/portfolioItem.jpg" alt="">
+               <div class="overlay">
+                 <img src="img/itemplus.png" alt="">
+                 <p class="paraName">PROJECT NAME</p>
+                 <p class="paraCat">Web Design</p>
+
+               </div>
+             </div>
+
+           </div>
+
+         </div>
+
+         <div class="row">
+           <div class="col-4">
+             <div class="item">
+               <img src="img/portfolioItem.jpg" alt="">
+               <div class="overlay">
+                 <img src="img/itemplus.png" alt="">
+                 <p class="paraName">PROJECT NAME</p>
+                 <p class="paraCat">Web Design</p>
+
+               </div>
+             </div>
+
+           </div>
+
+           <div class="col-4">
+             <div class="item">
+               <img src="img/portfolioItem.jpg" alt="">
+               <div class="overlay">
+                 <img src="img/itemplus.png" alt="">
+                 <p class="paraName">PROJECT NAME</p>
+                 <p class="paraCat">Web Design</p>
+
+               </div>
+             </div>
+
+           </div>
+
+           <div class="col-4">
+             <div class="item">
+               <img src="img/portfolioItem.jpg" alt="">
+               <div class="overlay">
+                 <img src="img/itemplus.png" alt="">
+                 <p class="paraName">PROJECT NAME</p>
+                 <p class="paraCat">Web Design</p>
+
+               </div>
+             </div>
+
+           </div>
+
+         </div>
+       </div>
+     </div>
+   </section>
+   <section id="team">
+     <div class="container">
+       <div class="team-top">
+         <h2>TEAM</h2>
+          <p class="sectionP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+
+
+       </div>
+       <div class="team-content">
+         <div class="row">
+           <div class="col-4">
+             <img src="img/teamMember.png" alt="">
+             <h3>JOHN DOE</h3>
+             <p>Lead Designer</p>
+             <ul class="socialicons">
+               <li><i class="fab fa-facebook-square"></i></li>
+               <li><i class="fab fa-twitter-square"></i></li>
+
+             </ul>
+
+           </div>
+           <div class="col-4">
+             <img src="img/teamMember.png" alt="">
+             <h3>JOHN DOE</h3>
+             <p>Lead Designer</p>
+             <ul class="socialicons">
+               <li><i class="fab fa-facebook-square"></i></li>
+               <li><i class="fab fa-twitter-square"></i></li>
+
+             </ul>
+
+           </div>
+           <div class="col-4">
+             <img src="img/teamMember.png" alt="">
+             <h3>JOHN DOE</h3>
+             <p>Lead Designer</p>
+             <ul class="socialicons">
+               <li><i class="fab fa-facebook-square"></i></li>
+               <li><i class="fab fa-twitter-square"></i></li>
+             </ul>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+   <section id="contact">
+     <div class="container">
+       <div class="contact-top">
+         <h2>CONTACT</h2>
+         <p class="sectionP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+
+       </div>
+       <div class="contact-container">
+         <form class="contact-form" action="index.html" method="post">
+           <input type="text" name="Name" value="" id="name" placeholder="Your Name" required/>
+           <input type="email" name="Email" value="" id="email" placeholder="Your Email Adress" required/>
+           <textarea name="message" rows="8" placeholder="Message" cols="80"></textarea>
+           <input type="submit" value="SEND"/>
+
+         </form>
+
+       </div>
+
+     </div>
+
+   </section>
+
+
+
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
